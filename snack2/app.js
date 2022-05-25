@@ -45,7 +45,7 @@ const listaCognomi = ["Rossi",
 
 let fullName = "";
 let randomOne = Math.floor(Math.random() * listaNomi.length);
-let randomTwo = Math.floor(Math.random() * listaNomi.length);
+let randomTwo = Math.floor(Math.random() * listaCognomi.length);
 
 console.log(randomOne);
 console.log(randomTwo);
